@@ -1,0 +1,190 @@
+[gd_scene load_steps=5 format=3 uid="uid://dc3pdk6i3t7dn"]
+
+[ext_resource type="Script" path="res://Scenes/background.gd" id="1_6ta5j"]
+[ext_resource type="Texture2D" uid="uid://b13spxc7tirqc" path="res://Assets/Skybox Castle outside.png" id="1_mqrsi"]
+[ext_resource type="PackedScene" uid="uid://d2aybsa2wo0mq" path="res://Scenes/player.tscn" id="3_jk4ui"]
+[ext_resource type="PackedScene" uid="uid://3wog4q4ejmdp" path="res://Scenes/skull_head.tscn" id="4_3xvel"]
+
+[node name="World" type="Node2D"]
+
+[node name="Background" type="Node2D" parent="."]
+script = ExtResource("1_6ta5j")
+
+[node name="TextureRect" type="TextureRect" parent="Background"]
+offset_right = 4361.0
+offset_bottom = 240.0
+scale = Vector2(1.345, 1.345)
+texture = ExtResource("1_mqrsi")
+stretch_mode = 1
+
+[node name="Player" parent="." instance=ExtResource("3_jk4ui")]
+position = Vector2(50, 167)
+speed = 300
+
+[node name="SkullHead45" parent="." instance=ExtResource("4_3xvel")]
+position = Vector2(1529, 263)
+
+[node name="SkullHead46" parent="." instance=ExtResource("4_3xvel")]
+position = Vector2(1598, 153)
+
+[node name="SkullHead47" parent="." instance=ExtResource("4_3xvel")]
+position = Vector2(1443, 155)
+
+[node name="SkullHead48" parent="." instance=ExtResource("4_3xvel")]
+position = Vector2(1889, 171)
+
+[node name="SkullHead49" parent="." instance=ExtResource("4_3xvel")]
+position = Vector2(1980, 77)
+
+[node name="SkullHead50" parent="." instance=ExtResource("4_3xvel")]
+position = Vector2(2249, 157)
+
+[node name="SkullHead51" parent="." instance=ExtResource("4_3xvel")]
+position = Vector2(2159, 262)
+
+[node name="SkullHead52" parent="." instance=ExtResource("4_3xvel")]
+position = Vector2(2080, 159)
+
+[node name="SkullHead53" parent="." instance=ExtResource("4_3xvel")]
+position = Vector2(2355, 64)
+
+[node name="SkullHead54" parent="." instance=ExtResource("4_3xvel")]
+position = Vector2(2455, 146)
+
+[node name="SkullHead55" parent="." instance=ExtResource("4_3xvel")]
+position = Vector2(2534, 249)
+
+[node name="SkullHead56" parent="." instance=ExtResource("4_3xvel")]
+position = Vector2(2964, 177)
+
+[node name="SkullHead31" parent="." instance=ExtResource("4_3xvel")]
+position = Vector2(4178, 172)
+
+[node name="SkullHead32" parent="." instance=ExtResource("4_3xvel")]
+position = Vector2(4254, 284)
+
+[node name="SkullHead33" parent="." instance=ExtResource("4_3xvel")]
+position = Vector2(4112, 80)
+
+[node name="SkullHead34" parent="." instance=ExtResource("4_3xvel")]
+position = Vector2(3976, 281)
+
+[node name="SkullHead35" parent="." instance=ExtResource("4_3xvel")]
+position = Vector2(4045, 171)
+
+[node name="SkullHead36" parent="." instance=ExtResource("4_3xvel")]
+position = Vector2(3890, 173)
+
+[node name="SkullHead37" parent="." instance=ExtResource("4_3xvel")]
+position = Vector2(4336, 189)
+
+[node name="SkullHead38" parent="." instance=ExtResource("4_3xvel")]
+position = Vector2(4427, 95)
+
+[node name="SkullHead39" parent="." instance=ExtResource("4_3xvel")]
+position = Vector2(4696, 175)
+
+[node name="SkullHead40" parent="." instance=ExtResource("4_3xvel")]
+position = Vector2(4606, 280)
+
+[node name="SkullHead41" parent="." instance=ExtResource("4_3xvel")]
+position = Vector2(4527, 177)
+
+[node name="SkullHead42" parent="." instance=ExtResource("4_3xvel")]
+position = Vector2(4802, 82)
+
+[node name="SkullHead43" parent="." instance=ExtResource("4_3xvel")]
+position = Vector2(4902, 164)
+
+[node name="SkullHead44" parent="." instance=ExtResource("4_3xvel")]
+position = Vector2(4981, 267)
+
+[node name="SkullHead" parent="." instance=ExtResource("4_3xvel")]
+position = Vector2(517, 159)
+
+[node name="SkullHead3" parent="." instance=ExtResource("4_3xvel")]
+position = Vector2(593, 271)
+
+[node name="SkullHead4" parent="." instance=ExtResource("4_3xvel")]
+position = Vector2(451, 67)
+
+[node name="SkullHead5" parent="." instance=ExtResource("4_3xvel")]
+position = Vector2(315, 268)
+
+[node name="SkullHead2" parent="." instance=ExtResource("4_3xvel")]
+position = Vector2(384, 158)
+
+[node name="SkullHead6" parent="." instance=ExtResource("4_3xvel")]
+position = Vector2(229, 160)
+
+[node name="SkullHead7" parent="." instance=ExtResource("4_3xvel")]
+position = Vector2(675, 176)
+
+[node name="SkullHead8" parent="." instance=ExtResource("4_3xvel")]
+position = Vector2(766, 82)
+
+[node name="SkullHead9" parent="." instance=ExtResource("4_3xvel")]
+position = Vector2(1035, 162)
+
+[node name="SkullHead10" parent="." instance=ExtResource("4_3xvel")]
+position = Vector2(945, 267)
+
+[node name="SkullHead11" parent="." instance=ExtResource("4_3xvel")]
+position = Vector2(866, 164)
+
+[node name="SkullHead12" parent="." instance=ExtResource("4_3xvel")]
+position = Vector2(1141, 69)
+
+[node name="SkullHead13" parent="." instance=ExtResource("4_3xvel")]
+position = Vector2(1241, 151)
+
+[node name="SkullHead14" parent="." instance=ExtResource("4_3xvel")]
+position = Vector2(1320, 254)
+
+[node name="SkullHead15" parent="." instance=ExtResource("4_3xvel")]
+position = Vector2(1731, 154)
+
+[node name="SkullHead28" parent="." instance=ExtResource("4_3xvel")]
+position = Vector2(3767, 272)
+
+[node name="SkullHead27" parent="." instance=ExtResource("4_3xvel")]
+position = Vector2(3688, 169)
+
+[node name="SkullHead26" parent="." instance=ExtResource("4_3xvel")]
+position = Vector2(3588, 87)
+
+[node name="SkullHead25" parent="." instance=ExtResource("4_3xvel")]
+position = Vector2(3313, 182)
+
+[node name="SkullHead24" parent="." instance=ExtResource("4_3xvel")]
+position = Vector2(3392, 285)
+
+[node name="SkullHead16" parent="." instance=ExtResource("4_3xvel")]
+position = Vector2(1807, 266)
+
+[node name="SkullHead23" parent="." instance=ExtResource("4_3xvel")]
+position = Vector2(3482, 180)
+
+[node name="SkullHead22" parent="." instance=ExtResource("4_3xvel")]
+position = Vector2(3213, 100)
+
+[node name="SkullHead21" parent="." instance=ExtResource("4_3xvel")]
+position = Vector2(3122, 194)
+
+[node name="SkullHead20" parent="." instance=ExtResource("4_3xvel")]
+position = Vector2(2676, 178)
+
+[node name="SkullHead19" parent="." instance=ExtResource("4_3xvel")]
+position = Vector2(2831, 176)
+
+[node name="SkullHead17" parent="." instance=ExtResource("4_3xvel")]
+position = Vector2(1665, 62)
+
+[node name="SkullHead18" parent="." instance=ExtResource("4_3xvel")]
+position = Vector2(2762, 286)
+
+[node name="SkullHead29" parent="." instance=ExtResource("4_3xvel")]
+position = Vector2(2898, 85)
+
+[node name="SkullHead30" parent="." instance=ExtResource("4_3xvel")]
+position = Vector2(3040, 289)
